@@ -1,0 +1,5 @@
+name: HChatPlus
+version: '${project.version}'
+main: it.heron4gf.hchatplus.HChatPlus
+api-version: '1.19'
+depend: [PlaceholderAPI]

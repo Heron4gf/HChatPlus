@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HChatPlus">
+    <output-path>$PROJECT_DIR$/out/artifacts/HChatPlus</output-path>
+    <root id="archive" name="HChatPlus.jar">
+      <element id="module-output" name="HChatPlus" />
+    </root>
+  </artifact>
+</component>

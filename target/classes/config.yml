@@ -1,0 +1,6 @@
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+chat:
+  format: "%luckperms_prefix%&x&f&4&f&4&f&4%player_name% &x&d&1&d&1&d&1»&x&f&4&f&4&f&4 "
