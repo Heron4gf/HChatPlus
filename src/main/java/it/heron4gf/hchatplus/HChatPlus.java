@@ -42,8 +42,10 @@ public final class HChatPlus extends JavaPlugin {
         instance = this;
         saveDefaultConfig();
 
-        jedisPool = new JedisPool(getConfig().getString("redis.host"), getConfig().getInt("redis.port"));
-        subscribeRedis();
+        if(getConfig().getBoolean("redis.enabled")) {
+            jedisPool = new JedisPool(getConfig().getString("redis.host"), getConfig().getInt("redis.port"));
+            subscribeRedis();
+        }
 
         Bukkit.getPluginManager().registerEvents(new AsyncChatListener(),this);
 

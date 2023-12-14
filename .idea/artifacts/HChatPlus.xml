@@ -3,6 +3,8 @@
     <output-path>$PROJECT_DIR$/out/artifacts/HChatPlus</output-path>
     <root id="archive" name="HChatPlus.jar">
       <element id="module-output" name="HChatPlus" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/redis/clients/jedis/4.3.1/jedis-4.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20220320/json-20220320.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
